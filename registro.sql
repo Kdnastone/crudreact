@@ -1,0 +1,13 @@
+CREATE DATABASE registro;
+USE registro;
+CREATE TABLE ingreso (
+   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   grupo VARCHAR(50) NOT NULL,
+   tipo VARCHAR(50) NOT NULL,
+   nombreComun VARCHAR(50) NOT NULL,
+   genero VARCHAR(50) NOT NULL,
+   especie VARCHAR(50)
+) ENGINE = InnoDB AUTO_INCREMENT = 1 DEFAULT CHARSET = latin1;
+
+
+
